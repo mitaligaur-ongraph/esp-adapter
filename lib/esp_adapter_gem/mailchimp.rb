@@ -25,7 +25,7 @@ module EspAdapterGem
     private
 
     def initialize_mailchimp_adapter(api_key)
-      @mailchimp_adapter = Mailchimp::API.new(api_key)
+      @mailchimp_adapter = ::Mailchimp::API.new(api_key)
     end
   end
 end
