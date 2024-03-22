@@ -13,4 +13,4 @@ gem "rubocop", "~> 1.21"
 
 gem 'pry'
 
-gem 'mailchimp-api', require: 'mailchimp'
+gem "MailchimpMarketing", "~> 3.0.80", git: "https://github.com/mailchimp/mailchimp-marketing-ruby.git"

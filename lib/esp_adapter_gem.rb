@@ -1,13 +1,14 @@
 # frozen_string_literal: true
 
-require_relative "esp_adapter_gem/version"
-# require_relative "esp_adapter_gem/base"
-require "esp_adapter_gem/mailchimp"
+require_relative "esp_adapter/version"
+require "esp_adapter/mailchimp"
+require "bundler/setup"
 
+# Module to handle ESP adapters
 module EspAdapterGem
   class Error < StandardError; end
 
   def self.description
-    puts 'Test gem EspAdapter'
+    puts "Test EspAdapter gem"
   end
 end
