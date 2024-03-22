@@ -1,7 +1,6 @@
 module EspAdapterGem
   class Base
     def initialize(api_key)
-      binding.pry
       @api_key = api_key
     end
 
