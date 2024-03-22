@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "esp_adapter_gem/version"
-require_relative "esp_adapter_gem/mailchimp"
+require "esp_adapter_gem/mailchimp"
 
 module EspAdapterGem
   class Error < StandardError; end
