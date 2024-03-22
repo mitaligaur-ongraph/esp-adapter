@@ -3,7 +3,7 @@ module EspAdapterGem
   class Mailchimp < Base
     def initialize(api_key)
       binding.pry
-      super
+      super(api_key)
     end
 
     def lists

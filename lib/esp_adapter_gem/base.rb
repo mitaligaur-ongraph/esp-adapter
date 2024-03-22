@@ -6,12 +6,14 @@ module EspAdapterGem
     end
 
     def lists
+      binding.pry
       handle_errors do
         # logic to fetch lists
       end
     end
 
     def list_metrics(list_id)
+      binding.pry
       handle_errors do
         # logic to get metrics
       end
