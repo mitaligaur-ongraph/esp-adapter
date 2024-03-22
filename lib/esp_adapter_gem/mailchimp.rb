@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'base'
+require 'mailchimp'
 
 module EspAdapterGem
   # class for handling MailChimp
